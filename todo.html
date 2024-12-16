@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            background-image: url('image/login.jpg');
+            font-family: Arial, sans-serif;
+            background: cover;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        #todoList {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        label {
+            margin-left: 10px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <h1>Welcome to Your Todo List</h1>
+    <ul id="todoList">
+        <!-- Tasks will be dynamically injected here -->
+    </ul>
+    <script src="./todo.js"></script>
+</body>
+</html>
